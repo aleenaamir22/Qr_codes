@@ -3,9 +3,8 @@ import qrcode
 import cv2
 import numpy as np
 from PIL import Image
-import tempfile
 
-
+print("All modules are installed correctly!")
 def generate_qr():
     """Generates a QR code from text input."""
     st.subheader("Generate QR Code")
